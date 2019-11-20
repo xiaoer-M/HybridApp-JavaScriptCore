@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73B12022238534EC00497707 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B12021238534EC00497707 /* AppDelegate.m */; };
+		73B12025238534EC00497707 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B12024238534EC00497707 /* ViewController.m */; };
+		73B12028238534EC00497707 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B12026238534EC00497707 /* Main.storyboard */; };
+		73B1202A238534EE00497707 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73B12029238534EE00497707 /* Assets.xcassets */; };
+		73B1202D238534EE00497707 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B1202B238534EE00497707 /* LaunchScreen.storyboard */; };
+		73B12030238534EE00497707 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B1202F238534EE00497707 /* main.m */; };
+		73B1203A238534EE00497707 /* HybridApp_JavaScriptCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B12039238534EE00497707 /* HybridApp_JavaScriptCoreTests.m */; };
+		73B12045238534EE00497707 /* HybridApp_JavaScriptCoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B12044238534EE00497707 /* HybridApp_JavaScriptCoreUITests.m */; };
+		73B120542385351400497707 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B120522385351300497707 /* BaseViewController.m */; };
+		73B120582385361100497707 /* BaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B120572385361100497707 /* BaseNavViewController.m */; };
+		73B1205A2385361700497707 /* base.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 73B120592385361700497707 /* base.bundle */; };
+		73B120B22385380D00497707 /* UrlMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B120B12385380D00497707 /* UrlMainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73B12036238534EE00497707 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73B12015238534EC00497707 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73B1201C238534EC00497707;
+			remoteInfo = "HybridApp—JavaScriptCore";
+		};
+		73B12041238534EE00497707 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73B12015238534EC00497707 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73B1201C238534EC00497707;
+			remoteInfo = "HybridApp—JavaScriptCore";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		73B1201D238534EC00497707 /* HybridApp—JavaScriptCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HybridApp—JavaScriptCore.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73B12020238534EC00497707 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		73B12021238534EC00497707 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		73B12023238534EC00497707 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		73B12024238534EC00497707 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		73B12027238534EC00497707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		73B12029238534EE00497707 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73B1202C238534EE00497707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		73B1202E238534EE00497707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73B1202F238534EE00497707 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73B12035238534EE00497707 /* HybridApp—JavaScriptCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HybridApp—JavaScriptCoreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73B12039238534EE00497707 /* HybridApp_JavaScriptCoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HybridApp_JavaScriptCoreTests.m; sourceTree = "<group>"; };
+		73B1203B238534EE00497707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73B12040238534EE00497707 /* HybridApp—JavaScriptCoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HybridApp—JavaScriptCoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73B12044238534EE00497707 /* HybridApp_JavaScriptCoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HybridApp_JavaScriptCoreUITests.m; sourceTree = "<group>"; };
+		73B12046238534EE00497707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73B120522385351300497707 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		73B120532385351400497707 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		73B120562385361100497707 /* BaseNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavViewController.h; sourceTree = "<group>"; };
+		73B120572385361100497707 /* BaseNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavViewController.m; sourceTree = "<group>"; };
+		73B120592385361700497707 /* base.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = base.bundle; sourceTree = "<group>"; };
+		73B120B02385380D00497707 /* UrlMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrlMainViewController.h; sourceTree = "<group>"; };
+		73B120B12385380D00497707 /* UrlMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrlMainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73B1201A238534EC00497707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73B12032238534EE00497707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73B1203D238534EE00497707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73B12014238534EC00497707 = {
+			isa = PBXGroup;
+			children = (
+				73B1201F238534EC00497707 /* HybridApp—JavaScriptCore */,
+				73B12038238534EE00497707 /* HybridApp—JavaScriptCoreTests */,
+				73B12043238534EE00497707 /* HybridApp—JavaScriptCoreUITests */,
+				73B1201E238534EC00497707 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73B1201E238534EC00497707 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73B1201D238534EC00497707 /* HybridApp—JavaScriptCore.app */,
+				73B12035238534EE00497707 /* HybridApp—JavaScriptCoreTests.xctest */,
+				73B12040238534EE00497707 /* HybridApp—JavaScriptCoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73B1201F238534EC00497707 /* HybridApp—JavaScriptCore */ = {
+			isa = PBXGroup;
+			children = (
+				73B12020238534EC00497707 /* AppDelegate.h */,
+				73B12021238534EC00497707 /* AppDelegate.m */,
+				73B12023238534EC00497707 /* ViewController.h */,
+				73B12024238534EC00497707 /* ViewController.m */,
+				73B120B02385380D00497707 /* UrlMainViewController.h */,
+				73B120B12385380D00497707 /* UrlMainViewController.m */,
+				73B12055238535E900497707 /* Base */,
+				73B12026238534EC00497707 /* Main.storyboard */,
+				73B12029238534EE00497707 /* Assets.xcassets */,
+				73B1202B238534EE00497707 /* LaunchScreen.storyboard */,
+				73B1202E238534EE00497707 /* Info.plist */,
+				73B1202F238534EE00497707 /* main.m */,
+			);
+			path = "HybridApp—JavaScriptCore";
+			sourceTree = "<group>";
+		};
+		73B12038238534EE00497707 /* HybridApp—JavaScriptCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				73B12039238534EE00497707 /* HybridApp_JavaScriptCoreTests.m */,
+				73B1203B238534EE00497707 /* Info.plist */,
+			);
+			path = "HybridApp—JavaScriptCoreTests";
+			sourceTree = "<group>";
+		};
+		73B12043238534EE00497707 /* HybridApp—JavaScriptCoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				73B12044238534EE00497707 /* HybridApp_JavaScriptCoreUITests.m */,
+				73B12046238534EE00497707 /* Info.plist */,
+			);
+			path = "HybridApp—JavaScriptCoreUITests";
+			sourceTree = "<group>";
+		};
+		73B12055238535E900497707 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				73B120592385361700497707 /* base.bundle */,
+				73B120562385361100497707 /* BaseNavViewController.h */,
+				73B120572385361100497707 /* BaseNavViewController.m */,
+				73B120532385351400497707 /* BaseViewController.h */,
+				73B120522385351300497707 /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73B1201C238534EC00497707 /* HybridApp—JavaScriptCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73B12049238534EE00497707 /* Build configuration list for PBXNativeTarget "HybridApp—JavaScriptCore" */;
+			buildPhases = (
+				73B12019238534EC00497707 /* Sources */,
+				73B1201A238534EC00497707 /* Frameworks */,
+				73B1201B238534EC00497707 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HybridApp—JavaScriptCore";
+			productName = "HybridApp—JavaScriptCore";
+			productReference = 73B1201D238534EC00497707 /* HybridApp—JavaScriptCore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73B12034238534EE00497707 /* HybridApp—JavaScriptCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73B1204C238534EE00497707 /* Build configuration list for PBXNativeTarget "HybridApp—JavaScriptCoreTests" */;
+			buildPhases = (
+				73B12031238534EE00497707 /* Sources */,
+				73B12032238534EE00497707 /* Frameworks */,
+				73B12033238534EE00497707 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73B12037238534EE00497707 /* PBXTargetDependency */,
+			);
+			name = "HybridApp—JavaScriptCoreTests";
+			productName = "HybridApp—JavaScriptCoreTests";
+			productReference = 73B12035238534EE00497707 /* HybridApp—JavaScriptCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		73B1203F238534EE00497707 /* HybridApp—JavaScriptCoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73B1204F238534EE00497707 /* Build configuration list for PBXNativeTarget "HybridApp—JavaScriptCoreUITests" */;
+			buildPhases = (
+				73B1203C238534EE00497707 /* Sources */,
+				73B1203D238534EE00497707 /* Frameworks */,
+				73B1203E238534EE00497707 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73B12042238534EE00497707 /* PBXTargetDependency */,
+			);
+			name = "HybridApp—JavaScriptCoreUITests";
+			productName = "HybridApp—JavaScriptCoreUITests";
+			productReference = 73B12040238534EE00497707 /* HybridApp—JavaScriptCoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73B12015238534EC00497707 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "小二";
+				TargetAttributes = {
+					73B1201C238534EC00497707 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					73B12034238534EE00497707 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 73B1201C238534EC00497707;
+					};
+					73B1203F238534EE00497707 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 73B1201C238534EC00497707;
+					};
+				};
+			};
+			buildConfigurationList = 73B12018238534EC00497707 /* Build configuration list for PBXProject "HybridApp—JavaScriptCore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73B12014238534EC00497707;
+			productRefGroup = 73B1201E238534EC00497707 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73B1201C238534EC00497707 /* HybridApp—JavaScriptCore */,
+				73B12034238534EE00497707 /* HybridApp—JavaScriptCoreTests */,
+				73B1203F238534EE00497707 /* HybridApp—JavaScriptCoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73B1201B238534EC00497707 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B1202D238534EE00497707 /* LaunchScreen.storyboard in Resources */,
+				73B1202A238534EE00497707 /* Assets.xcassets in Resources */,
+				73B1205A2385361700497707 /* base.bundle in Resources */,
+				73B12028238534EC00497707 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73B12033238534EE00497707 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73B1203E238534EE00497707 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73B12019238534EC00497707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B12025238534EC00497707 /* ViewController.m in Sources */,
+				73B120542385351400497707 /* BaseViewController.m in Sources */,
+				73B120582385361100497707 /* BaseNavViewController.m in Sources */,
+				73B120B22385380D00497707 /* UrlMainViewController.m in Sources */,
+				73B12030238534EE00497707 /* main.m in Sources */,
+				73B12022238534EC00497707 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73B12031238534EE00497707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B1203A238534EE00497707 /* HybridApp_JavaScriptCoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73B1203C238534EE00497707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B12045238534EE00497707 /* HybridApp_JavaScriptCoreUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73B12037238534EE00497707 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73B1201C238534EC00497707 /* HybridApp—JavaScriptCore */;
+			targetProxy = 73B12036238534EE00497707 /* PBXContainerItemProxy */;
+		};
+		73B12042238534EE00497707 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73B1201C238534EC00497707 /* HybridApp—JavaScriptCore */;
+			targetProxy = 73B12041238534EE00497707 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		73B12026238534EC00497707 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73B12027238534EC00497707 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		73B1202B238534EE00497707 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73B1202C238534EE00497707 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73B12047238534EE00497707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		73B12048238534EE00497707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73B1204A238534EE00497707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WRFCFKAHT;
+				INFOPLIST_FILE = "HybridApp—JavaScriptCore/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HybridApp—JavaScriptCore/Login/Lib/JPush/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.5i84.HybridApp-JavaScriptCore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73B1204B238534EE00497707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WRFCFKAHT;
+				INFOPLIST_FILE = "HybridApp—JavaScriptCore/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HybridApp—JavaScriptCore/Login/Lib/JPush/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.5i84.HybridApp-JavaScriptCore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		73B1204D238534EE00497707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WRFCFKAHT;
+				INFOPLIST_FILE = "HybridApp—JavaScriptCoreTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.5i84.HybridApp-JavaScriptCoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HybridApp—JavaScriptCore.app/HybridApp—JavaScriptCore";
+			};
+			name = Debug;
+		};
+		73B1204E238534EE00497707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WRFCFKAHT;
+				INFOPLIST_FILE = "HybridApp—JavaScriptCoreTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.5i84.HybridApp-JavaScriptCoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HybridApp—JavaScriptCore.app/HybridApp—JavaScriptCore";
+			};
+			name = Release;
+		};
+		73B12050238534EE00497707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WRFCFKAHT;
+				INFOPLIST_FILE = "HybridApp—JavaScriptCoreUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.5i84.HybridApp-JavaScriptCoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HybridApp—JavaScriptCore";
+			};
+			name = Debug;
+		};
+		73B12051238534EE00497707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WRFCFKAHT;
+				INFOPLIST_FILE = "HybridApp—JavaScriptCoreUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.5i84.HybridApp-JavaScriptCoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HybridApp—JavaScriptCore";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73B12018238534EC00497707 /* Build configuration list for PBXProject "HybridApp—JavaScriptCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73B12047238534EE00497707 /* Debug */,
+				73B12048238534EE00497707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73B12049238534EE00497707 /* Build configuration list for PBXNativeTarget "HybridApp—JavaScriptCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73B1204A238534EE00497707 /* Debug */,
+				73B1204B238534EE00497707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73B1204C238534EE00497707 /* Build configuration list for PBXNativeTarget "HybridApp—JavaScriptCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73B1204D238534EE00497707 /* Debug */,
+				73B1204E238534EE00497707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73B1204F238534EE00497707 /* Build configuration list for PBXNativeTarget "HybridApp—JavaScriptCoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73B12050238534EE00497707 /* Debug */,
+				73B12051238534EE00497707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73B12015238534EC00497707 /* Project object */;
+}
