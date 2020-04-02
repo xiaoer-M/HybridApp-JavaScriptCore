@@ -1,2 +1,2 @@
 # HybridApp-JavaScriptCore
-JavaScriptCore+UIWebView实现JS与原生交互，这种方式安卓和iOS通用的，然而iOS12之后UIWebView被无情弃用了，现在交互直接使用WKWebView
+JavaScriptCore+UIWebView实现JS与原生交互，这种方式安卓和iOS通用的，然而iOS12之后UIWebView被无情弃用了，现在交互直接使用WKWebView+WebViewJavascriptBridge
